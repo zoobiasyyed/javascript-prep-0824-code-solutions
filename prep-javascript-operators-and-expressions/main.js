@@ -43,7 +43,7 @@ console.log(typeof isAcidic);
 
 // exercise 6
 
-numberOfSoldiers = 5000;
+const numberOfSoldiers = 5000;
 const isSparta = numberOfSoldiers === 300;
 console.log(isSparta);
 console.log(typeof isSparta);
