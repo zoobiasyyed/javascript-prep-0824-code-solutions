@@ -19,7 +19,7 @@ console.log(typeof amountRemaining);
 const tests = 4;
 const assignment = 20;
 const final = 2;
-const grade = (tests + assignment + final) / 2;
+const grade = (tests + assignment + final) / 3;
 console.log(grade);
 console.log(typeof grade);
 
@@ -34,7 +34,7 @@ console.log(typeof fullName);
 // exercise 5
 
 const pH = 3;
-let isAcidic = pH < 7;
+const isAcidic = pH < 7;
 //if (pH < 7) {
 //  isAcidic = true;
 //}
@@ -44,12 +44,13 @@ console.log(typeof isAcidic);
 // exercise 6
 
 numberOfSoldiers = 5000;
-let isSparta = numberOfSoldiers === 300;
+const isSparta = numberOfSoldiers === 300;
 console.log(isSparta);
 console.log(typeof isSparta);
 
 //exercise 7
 
-let nickname = fullName + ' is the GOAT!';
+let nickname = fullName;
+nickname += ' is the GOAT!';
 console.log(nickname);
 console.log(typeof nickname);
